@@ -1,4 +1,4 @@
-**Tästä löydät mock dataa SOC Dashboard projektia varten. Tiedot ovat .json tiedostoissa.**
+**Tästä löydät mock dataa SOC Dashboard projektia varten.**
 **Mock data saattaa projektin aikana muuttua, jos se katsotaan tarpeelliseksi.**
 
 
