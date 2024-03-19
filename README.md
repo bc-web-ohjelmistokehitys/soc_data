@@ -30,5 +30,12 @@ Esimerkkejä lokitiedoista, joita SOC-dashboardissa halutaan näyttää:
    - Verkon virheilmoitukset:
      - Reititin ilmoitti verkkoyhteyden katkeamisesta palvelimen "server3" ja verkkoon "10.20.30.0" klo 12:30.
 
+4. **Työaseman lokit:**
 
-**Huom: nämä esimerkit eivät vastaa suoraan json tiedostojen mock-dataa.**
+   - Käyttäjä "user2" yrittää asentaa ohjelmiston ja tulee estetyksi klo 08:10.
+   - Virustorjuntaohjelma havaitsee ja poistaa haittaohjelman "Trojan.Generic" klo 08:15.
+   - Epäilyttävä prosessi "malicious.exe" suoritetaan ja estetään klo 08:20.
+   - USB-muistitikku liitetään työasemaan "PC2" klo 08:25.
+
+
+**Huom: nämä esimerkit eivät vastaa .json tiedostojen mock dataa.**
