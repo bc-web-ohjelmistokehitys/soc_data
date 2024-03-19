@@ -1,0 +1,38 @@
+[
+  {
+    "timestamp": "2024-03-18T08:00:00",
+    "source_ip": "192.168.1.10",
+    "username": "user1",
+    "event_id": 4624,
+    "logon_type": "Interactive",
+    "logon_result": "Success",
+    "process_name": "C:\\Windows\\System32\\cmd.exe"
+  },
+  {
+    "timestamp": "2024-03-18T09:00:00",
+    "source_ip": "192.168.1.25",
+    "username": "user4",
+    "event_id": 4769,
+    "logon_type": "Unlock",
+    "logon_result": "Success",
+    "process_name": "C:\\Windows\\System32\\LogonUI.exe"
+  },
+  {
+    "timestamp": "2024-03-18T10:00:00",
+    "source_ip": "192.168.1.30",
+    "username": "user5",
+    "event_id": 4672,
+    "logon_type": "Batch",
+    "logon_result": "Success",
+    "process_name": "C:\\Windows\\System32\\Taskmgr.exe"
+  },
+  {
+    "timestamp": "2024-03-18T11:30:00",
+    "source_ip": "192.168.1.40",
+    "username": "attacker",
+    "event_id": 4624,
+    "logon_type": "Interactive",
+    "logon_result": "Success",
+    "process_name": "C:\\Windows\\System32\\cmd.exe"
+  }
+]

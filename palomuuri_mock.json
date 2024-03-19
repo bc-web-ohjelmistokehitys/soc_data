@@ -1,0 +1,51 @@
+[
+  {
+    "timestamp": "2024-03-18T08:00:00",
+    "source_ip": "192.168.1.101",
+    "destination_ip": "203.0.113.10",
+    "destination_port": 80,
+    "protocol": "HTTP",
+    "action": "allowed"
+  },
+  {
+    "timestamp": "2024-03-18T08:15:00",
+    "source_ip": "10.1.1.5",
+    "destination_ip": "203.0.113.20",
+    "destination_port": 22,
+    "protocol": "SSH",
+    "action": "blocked"
+  },
+  {
+    "timestamp": "2024-03-18T08:30:00",
+    "source_ip": "192.168.1.102",
+    "destination_ip": "203.0.113.30",
+    "destination_port": 443,
+    "protocol": "HTTPS",
+    "action": "allowed"
+  },
+  {
+    "timestamp": "2024-03-18T09:00:00",
+    "source_ip": "192.168.1.103",
+    "destination_ip": "203.0.113.40",
+    "destination_port": 21,
+    "protocol": "FTP",
+    "action": "allowed"
+  },
+  {
+    "timestamp": "2024-03-18T10:00:00",
+    "source_ip": "10.2.2.10",
+    "destination_ip": "203.0.113.50",
+    "destination_port": 445,
+    "protocol": "SMB",
+    "action": "detected",
+    "description": "Possible SMB exploit attempt"
+  },
+  {
+    "timestamp": "2024-03-18T11:00:00",
+    "source_ip": "192.168.1.104",
+    "destination_ip": "203.0.113.60",
+    "destination_port": 3389,
+    "protocol": "RDP",
+    "action": "blocked"
+  }
+]

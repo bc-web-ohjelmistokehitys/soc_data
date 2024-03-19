@@ -1,0 +1,42 @@
+[
+  {
+    "timestamp": "2024-03-18T10:00:00",
+    "server_name": "server1",
+    "event_type": "login",
+    "username": "user123",
+    "status": "success"
+  },
+  {
+    "timestamp": "2024-03-18T10:15:00",
+    "server_name": "server2",
+    "event_type": "login",
+    "username": "admin",
+    "status": "failed"
+  },
+  {
+    "timestamp": "2024-03-18T11:30:00",
+    "server_name": "server1",
+    "event_type": "update",
+    "update_name": "SecurityPatch20240318",
+    "status": "success"
+  },
+  {
+    "timestamp": "2024-03-18T12:00:00",
+    "server_name": "server3",
+    "event_type": "update",
+    "update_name": "AppUpdate_v2.5",
+    "status": "success"
+  },
+  {
+    "timestamp": "2024-03-18T14:00:00",
+    "server_name": "server2",
+    "event_type": "virus_scan",
+    "status": "success"
+  },
+  {
+    "timestamp": "2024-03-18T15:00:00",
+    "server_name": "server1",
+    "event_type": "abnormal_activity",
+    "description": "Unusual number of failed login attempts"
+  }
+]
