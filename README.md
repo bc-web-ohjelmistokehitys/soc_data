@@ -1,8 +1,16 @@
-**Tästä löydät mock dataa SOC Dashboard projektia varten.**
-**Mock data saattaa projektin aikana muuttua, jos se katsotaan tarpeelliseksi.**
+# SOC Dashboard projektin mock dataa
 
+Tästä löydät mock dataa SOC Dashboard projektia varten.
 
+Mock data saattaa projektin aikana muuttua, jos se katsotaan tarpeelliseksi.
 
+## Mock data -palvelin
+
+Hakemisto mock_server sisältää Node/Express-palvelimen, mikä jakaa mock dataa kehityskoneella http:llä.
+
+Tarkemmat ohjeet hakemistossa olevassa README.md -tiedostossa.
+
+## Esimerkkejä
 
 Esimerkkejä lokitiedoista, joita SOC-dashboardissa halutaan näyttää:
 
