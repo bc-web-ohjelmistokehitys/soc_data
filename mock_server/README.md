@@ -11,3 +11,7 @@ SOC Dashboard -projektin käyttöön mock-dataa.
 ## Käynnistäminen
 
 Käynnistä palvelin tässä hakemistossa komennolla `node index.js`
+
+## Polut
+
+Dataa jaetaan kahdenalisissa poluissa `/logs/` ja `/dynlogs/`. Jälkimmäiset generoivat joka pyynnöllä lisää dataa.
